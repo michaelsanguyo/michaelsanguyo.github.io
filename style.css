@@ -18,8 +18,7 @@ body{
 header a{
   display: flex;
   flex-direction: column;
-  color:white;
-  background: #ffb482;
+  color:#313131;
 }
 header h4{
   font-size: 30px;
@@ -90,8 +89,11 @@ nav li{
 }
 
 .hr1{
-  border: 3px solid #fbaf5d;
-  width: 518px;
+  border: 2px solid #fbaf5d;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+
 }
 
 .logo{
@@ -99,7 +101,7 @@ nav li{
 }
 .photo1{
   padding: 0px;
-  margin-top: 10px;
+  margin-top: 0px;
   box-shadow: 2px 5px 10px rgba(0,0,0,0.3);
 }
 
@@ -120,6 +122,7 @@ nav li{
 }
 .content1{
   order:1;
+  background: #fafafa;
 }
 
 .content2{
