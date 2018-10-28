@@ -5,9 +5,7 @@
   margin:0px;
 }
 
-body, body a{
-  display: flex;
-  flex-direction: column;
+body{
   height: auto;
   margin: 0;
   padding: 0;
@@ -17,6 +15,12 @@ body, body a{
   text-decoration: none;
 }
 
+header a{
+  display: flex;
+  flex-direction: column;
+  color:white;
+  background: #ffb482;
+}
 header h4{
   font-size: 30px;
   font-weight: bold;
@@ -90,7 +94,7 @@ nav li{
 }
 
 .logo{
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .photo1{
   padding: 0px;
