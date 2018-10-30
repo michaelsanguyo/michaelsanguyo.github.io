@@ -7,6 +7,7 @@ body {
 
 .navbar{
   min-height: 80px;
+  margin-bottom: 50px;
 }
 
 .navbar-brand{
@@ -69,7 +70,10 @@ body {
   text-decoration: none;
 }
 
-.container1{
-  min-height: 30%;
-  position: relative;
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 50px; /* height of your footer */
 }
