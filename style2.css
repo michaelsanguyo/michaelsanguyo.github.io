@@ -35,6 +35,18 @@ body {
   }
 }
 
+.dropdown-menu{
+  width: 230px;
+}
+
+.dropdown-menu li{
+  padding:5px 20px;
+}
+
+.dropdown-menu i{
+  margin-right: 5px;
+}
+
 .footer1{
   color:#b2b2b2;
   background:pink;
